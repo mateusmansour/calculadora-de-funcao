@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="header-text">calculadora de função</h1>
+        
+    </div>
+    <div class="act">
+        <div style="margin-top: 6rem;"class="calculator">
+            <form method="GET">
+                <input type="valor" name="value" id="x">
+                
+                <select name="select" id="type-mode">
+                    <option value="" selected>select mode</option>
+                    <option value="f">função F</option>
+                    <option value="g">função G</option>
+                    <option value="fog">função F de G</option>
+                    <option value="gof">função G de F</option>
+                </select>
+                <input type="submit" class="go" value="calcular!" onclick="work()"></input>
+            </form>
+
+            
+        </div>
+
+        <div class="result">
+            <h1 id="resultado1">o resultado é: </h1>
+        </div>
+        <script src="calc.js"></script>
+        
+    </div>
+</body>
+</html>

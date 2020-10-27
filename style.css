@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'SF Pro Display', sans-serif;
+    
+}
+.calculator{
+    text-align: center;
+    justify-content: center;
+}
+.calculator{
+    margin-top: 20rem;
+    
+}
+.act{
+    height: 100vh;
+    vertical-align: middle;
+    
+}
+.header{
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    
+}
+.header-text{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+.go{
+    color: black;
+}
+.result{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
