@@ -9,11 +9,18 @@ html{
 .calculator{
     text-align: center;
     justify-content: center;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+
 }
-.calculator{
-    margin-top: 20rem;
-    
-}
+/* .calculator, input[type="valor"]{
+    background: #Fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+} */
 .act{
     height: 100vh;
     vertical-align: middle;

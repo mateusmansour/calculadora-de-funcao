@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
 });
 
 
-var element = document.getElementById('resultado1');
+const element = document.getElementById('resultado1');
 
 
 
