@@ -35,22 +35,22 @@ function g(x) {
 }
 if (mode == "f") {
     f(x);
-    element.appendChild(document.createTextNode(' ' + result));
+    element.appendChild(document.createTextNode(` ${result}`));
 
 }
 else if (mode == "g") {
     g(x);
-    element.appendChild(document.createTextNode(' ' + result));
+    element.appendChild(document.createTextNode(` ${result}`));
 
 }
 else if (mode == "fog") {
     f(g(x));
-    element.appendChild(document.createTextNode(' ' + result));
+    element.appendChild(document.createTextNode(` ${result}`));
 
 }
 else if (mode == "gof") {
     g(f(x));
-    element.appendChild(document.createTextNode(' ' + result));
+    element.appendChild(document.createTextNode(` ${result}`));
 
 }
 else {
